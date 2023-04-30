@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container-nav {
+    border: 1px solid black;
+}
+
+.container-nav nav {
+    background: rgb(99, 219, 209);
+    background: linear-gradient(90deg, rgba(99, 219, 209, 1) 14%, rgba(85, 167, 221, 1) 68%, rgba(85, 167, 221, 1) 99%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.container-nav .nav-right .list {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-nav .nav-right .list .list-item {
+    margin-right: 30px;
+
+}
+
+.container-nav .nav-right .list .list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
